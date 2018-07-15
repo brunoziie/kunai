@@ -1,0 +1,29 @@
+{
+  "name": "kunai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kunai": "bin/kunai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoziie/kunai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoziie/kunai/issues"
+  },
+  "homepage": "https://github.com/brunoziie/kunai#readme",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "lodash.get": "^4.4.2"
+  }
+}
