@@ -1,7 +1,7 @@
 {
   "name": "kunai",
   "version": "0.0.1",
-  "description": "",
+  "description": "A pseudo-structural-language designed to test APIs",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -16,8 +16,8 @@
     "type": "git",
     "url": "git+https://github.com/brunoziie/kunai.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "brunoziie",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/brunoziie/kunai/issues"
   },

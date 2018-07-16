@@ -2,7 +2,7 @@
 
 ![logo](https://github.com/brunoziie/kunai/raw/master/kunai.png)
 
-[kunai](https://github.com/brunoziie/kunai) is a _pseudo-structural-language_ designed to test API's.
+[kunai](https://github.com/brunoziie/kunai) is a _pseudo-structural-language_ designed to test APIs.
 
 [kunai](https://github.com/brunoziie/kunai) provides a high level abstraction that makes it easy to write and run API tests. 
 
