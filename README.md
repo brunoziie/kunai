@@ -271,7 +271,7 @@ In `RESPONSE MUST` you will be able to access the `response` variable with the f
 | response.headers  | `object`  | List of headers sent by server in response |
 | response.request  | `object`  | Object with url, http method and headers sent on request  |
 
-To test the conditions you'll use the `@asset()` method. 
+To test the conditions you'll use the `@assert()` method. 
 
 ```text
 @assert(condition, description)
@@ -343,9 +343,9 @@ The `@write()` method has three more specific methods.
 
 ```text
 CONFIG
-baseurl: 'https://api.yummy-recipes.com'
-recipe_title: 'Awesome Cupcake Recipe'
-status: 200
+  baseurl: 'https://api.yummy-recipes.com'
+  recipe_title: 'Awesome Cupcake Recipe'
+  status: 200
 
 POST '/login'
   [...]
