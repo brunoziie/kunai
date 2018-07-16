@@ -15,13 +15,13 @@ If you don't have [Node.js](https://nodejs.org) installed yet, no problem. You c
 Once you have [Node.js](https://nodejs.org) installed just run the following command on your terminal.
 
 ```bash
-npm install -g kunai
+npm install -g kunai-lang
 ```
 
 [kunai](https://github.com/brunoziie/kunai) must be installed globally, so maybe you need to install with administrator privileges. On Linux and MacOS it's made using the following command.
 
 ```bash
-sudo npm install -g kunai
+sudo npm install -g kunai-lang
 ```
 
 After installed you get access to the `kunai` command on your terminal.
