@@ -360,3 +360,22 @@ GET '/users/:user_id:/recipes'
   
   # will produce: https://api.yummy-recipes.com/users/184/recipes?category=15
 ```
+
+#### Utils
+
+##### Spliting test in multiple files.
+
+Maybe writing everything to a file just make the file very long. You can split the test in smaller pieces and include in `spec.kunai` file.
+
+```text
+INCLUDE 'users/auth.kunai'
+INCLUDE 'users/posts.kunai'
+INCLUDE 'users/recipes.kunai'
+```
+
+You can omit the extension of test file. 
+
+```text
+INCLUDE 'users/auth' # Will be read as users/auth.kunai
+INCLUDE 'users/posts.kunai'
+```

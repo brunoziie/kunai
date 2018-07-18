@@ -1,6 +1,6 @@
 {
   "name": "kunai-lang",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A pseudo-structural-language designed to test APIs",
   "main": "index.js",
   "directories": {
