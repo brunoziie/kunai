@@ -28,7 +28,7 @@ After installed you get access to the `kunai` command on your terminal.
 
 ## Getting started
 
-[kunai](https://github.com/brunoziie/kunai) is language, framework or project structure agnostic, that means you can write your test script out of your project. You just need to create a `spec.kunai` file and write your test instructions.
+[kunai](https://github.com/brunoziie/kunai) is language, framework or project structure agnostic, that means you can write your test script out of your project. You just need to create a `test.kunai` file and write your test instructions.
 
 ### Conventions
 Before starting writing is important know some conventions from [kunai](https://github.com/brunoziie/kunai).
@@ -41,7 +41,7 @@ Before starting writing is important know some conventions from [kunai](https://
 
 ### Writing a simple test
 
-Create a file named `spec.kunai` and put the following code:
+Create a file named `test.kunai` and put the following code:
 
 ```text
 CONFIG
@@ -365,7 +365,7 @@ GET '/users/:user_id:/recipes'
 
 ##### Spliting test in multiple files.
 
-Maybe writing everything to a file just make the file very long. You can split the test in smaller pieces and include in `spec.kunai` file.
+Maybe writing everything to a file just make the file very long. You can split the test in smaller pieces and include in `test.kunai` file.
 
 ```text
 INCLUDE 'users/auth.kunai'
