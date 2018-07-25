@@ -320,6 +320,67 @@ POST '/recipes'
 
   [...]
 ```
+##### Checking types
+
+For other way to validate these tests is using the `@it` method, follow the these two patters. 
+
+| Check | Description|
+|------|----|
+| object, array, string, null, number|Verify the type of property|
+| equals, has | Verify if the content of property |
+
+For this way, is possible to check the propeties inside the object.
+*All of these features works on `RESPONSE MUST` or in `BODY MUST`
+
+###### Syntax for content  property
+
+```text
+[...]
+  RESPONSE MUST
+    @it(response.list).array('The list must be a array')
+    @it(response.price).number('The price must be a number')
+    @it(response.name).string('The name must be a string')
+    @it(response.faults).null('The faults must be a null')
+    @it(response).object('The response must be a object')
+[...]
+```
+
+###### Syntax for type property
+
+```text
+[...]
+  RESPONSE MUST
+    @it(response).equals('statusCode', 200, 'The status code must be a 200')
+
+BODY MUST
+    @it(body).equals('statusCode', 200, 'The status code must be a 200')
+[...]
+```
+Using the function `has`:
+
+```text
+[...]
+RESPONSE MUST
+    @it(response).has('statusCode', 200, 'The status code must be a 200')
+
+BODY MUST
+    @it(body).has('statusCode', 200, 'The status code must be a 200')
+[...]
+```
+When the function has are used firstly the handler check if the property in question exists, after that is verified the value. 
+
+##### Checking types
+
+You can also use `not` before of these functions to make a easy and clear check:
+
+```text
+[...]
+BODY MUST
+    @it(body).not.has(statusCode, 200, 'The status code must be different of 200')
+    @it(body.victories).not.null('The victories must be different of null')
+[...]
+```
+
 
 ##### Persisting data
 
