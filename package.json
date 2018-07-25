@@ -24,6 +24,7 @@
   "homepage": "https://github.com/brunoziie/kunai#readme",
   "dependencies": {
     "colors": "^1.3.0",
+    "faker": "^4.1.0",
     "lodash.get": "^4.4.2",
     "lodash.matches": "^4.6.0",
     "request": "^2.87.0"
