@@ -9,7 +9,7 @@ module.exports.run = () => {
     console.log(brand);
 
     try {
-        const code = Kunai.parseSpec();    
+        const code = Kunai.parseSpec();
         runner(code);
     } catch (error) {
         console.log(colors.red.bold(`\n    (!) ${error.message}\n\n`));

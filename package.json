@@ -1,6 +1,6 @@
 {
   "name": "kunai-lang",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A pseudo-structural-language designed to test APIs",
   "main": "index.js",
   "directories": {
@@ -24,9 +24,9 @@
   "homepage": "https://github.com/brunoziie/kunai#readme",
   "dependencies": {
     "colors": "^1.3.0",
-    "faker": "^4.1.0",
     "lodash.get": "^4.4.2",
     "lodash.matches": "^4.6.0",
+    "moment": "^2.22.2",
     "request": "^2.87.0"
   }
 }
