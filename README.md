@@ -348,37 +348,41 @@ For this way, is possible to check the propeties inside the object.
 ###### Syntax for type property
 
 ```text
-[...]
+  [...]
+  
   RESPONSE MUST
     @it(response).equals('statusCode', 200, 'The status code must be a 200')
 
-BODY MUST
+  BODY MUST
     @it(body).equals('statusCode', 200, 'The status code must be a 200')
-[...]
+    
+  [...]
 ```
 Using the function `has`:
 
 ```text
-[...]
-RESPONSE MUST
+  [...]
+  
+  RESPONSE MUST
     @it(response).has('statusCode', 200, 'The status code must be a 200')
 
-BODY MUST
+  BODY MUST
     @it(body).has('statusCode', 200, 'The status code must be a 200')
-[...]
+    
+  [...]
 ```
 When the function has are used firstly the handler check if the property in question exists, after that is verified the value. 
-
-##### Checking types
 
 You can also use `not` before of these functions to make a easy and clear check:
 
 ```text
-[...]
-BODY MUST
+  [...]
+  
+  BODY MUST
     @it(body).not.has(statusCode, 200, 'The status code must be different of 200')
-    @it(body.victories).not.null('The victories must be different of null')
-[...]
+    @it(body.victories).not.null('The victories must be different of null') 
+
+  [...]
 ```
 
 
