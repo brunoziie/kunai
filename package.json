@@ -1,6 +1,6 @@
 {
   "name": "kunai-lang",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A pseudo-structural-language designed to test APIs",
   "main": "index.js",
   "directories": {
@@ -27,6 +27,7 @@
     "lodash.get": "^4.4.2",
     "lodash.matches": "^4.6.0",
     "moment": "^2.22.2",
-    "request": "^2.87.0"
+    "request": "^2.87.0",
+    "set-cookie-parser": "^2.4.0"
   }
 }

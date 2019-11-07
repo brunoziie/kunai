@@ -405,6 +405,7 @@ The `@write()` method has three more specific methods.
 - `@write.qs(key, value)`: Save querystrings.
 - `@write.headers(key, value)`: Save headers.
 - `@write.inputs(key, value)`: Save inputs.
+- `@keepCookies()`: Save current response cookies.
 
 ```text
 CONFIG
