@@ -362,6 +362,9 @@ Using the function `has`:
 
 ```text
   [...]
+  // @it(response).has(path, value, description)
+  // @it(response).has(path, description)
+  // @it(response).has(path)
   
   RESPONSE MUST
     @it(response).has('statusCode', 200, 'The status code must be a 200')
